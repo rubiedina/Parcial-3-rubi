@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: grey;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 20px;
+}
+.visita{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nosotros_titulo{
+    color: brown;
+}
+
+.form-inline{
+    align-items: center;
+}
+.map{
+    margin-top: 100px;
+
+}
+.map img{
+    margin-top: 100px;
+    width: 1000px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.25);
+}
+
+.Mt-5 button{
+    margin-top: 50px;
+
+}
+
+.catalogo{
+        width: 800px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 450px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background: #C10E0E;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+@media (max-width: 1000px) {
+    .catalogo {
+        width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+  }
